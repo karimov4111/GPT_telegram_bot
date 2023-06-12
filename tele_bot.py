@@ -31,7 +31,7 @@ async def send_welcome(message: types.Message):
 async def echo(message: types.Message):
     massag=message.text.lower()
 
-    api_key = "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"
+    api_key = "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"
 
     # OpenAI API-ga ulanish
     openai.api_key = api_key
